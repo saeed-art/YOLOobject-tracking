@@ -18,3 +18,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Ignore specific files in the scripts folder
+scripts/basics.py
+scripts/cam.py
+scripts/sort.py
