@@ -1,5 +1,7 @@
 # YOLOv8 Object Detection & Tracking
 
+![Project Image](Images/03.png)
+
 This project contains Python scripts for real-time object detection and tracking using YOLOv8, OpenCV, and the SORT tracking algorithm.
 
 ## Folder Structure
