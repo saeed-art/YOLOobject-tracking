@@ -105,6 +105,7 @@ def draw_trail(img, trail_points, color=(255, 160, 0)):
 cap = cv2.VideoCapture('videos/cars.mp4')
 
 model = YOLO('Weights/yolov8n.pt')
+print(f"YOLO is running on: {model.device}") 
 classNames = model.names
 
 mask = cv2.imread("images/maskcar.png")
@@ -211,7 +212,7 @@ while True:
 
     cv2.imshow("Vehicle Counter — Enhanced", img)
 
-    if cv2.waitKey(0) & 0xFF == ord('q'):
+    if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
 cap.release()

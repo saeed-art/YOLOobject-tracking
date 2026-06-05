@@ -24,3 +24,5 @@ scripts/basics.py
 scripts/cam.py
 scripts/sort.py
 scripts/videos-simple.py
+scripts/trainedYOLOdetect-simple.py
+scripts/trainYOLO-original.ipynb
