@@ -22,7 +22,7 @@ This project contains Python scripts for real-time object detection and tracking
    ```
 
 2. Run the scripts from the `scripts` folder:
-   - For basic vehicle tracking: `python scripts/videos.py`
+   - For basic vehicle tracking: `python scripts/YOLOcar-count.py`
    - For custom PPE detection: `python scripts/trainedYOLOdetect.py`
    
 3. To train your own custom model:
