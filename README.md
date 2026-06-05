@@ -34,3 +34,4 @@ The newly added `trainYOLO.ipynb` allows you to fine-tune a YOLOv8 model on a cu
 ## Acknowledgements
 - The `sort.py` script is from **[Alex Bewley's SORT repository](https://github.com/abewley/sort)** for real-time tracking of multiple objects. It is licensed under the GPL-3.0 License.
 - YOLOv8 by [Ultralytics](https://github.com/ultralytics/ultralytics).
+- Custom Construction Safety Dataset sourced from [Roboflow](https://roboflow.com/).
